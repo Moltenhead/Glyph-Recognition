@@ -20,3 +20,6 @@ Glyph recognition from an input
 * Store input as a vector set
 * Apply image scales to vector set instead
 * After all scales applied draw png from vector set using a fixed stroke width equivalent to glyphs from data bank
+
+* Instead of substracting pngs and counting black pixels : both compared image are set to halved transparency, then addition them and weight this way : >250 alpha pixel is -1, > 0 && < 123 alpha pixel is +1, the lower the better
+* Previous solution can also work with saturation, brightness or hue
