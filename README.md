@@ -14,6 +14,8 @@ Glyph recognition from an input
 2. While input is made identify present flags within input
 3. Before step `5.` of `Main idea` filter the glyphs set from querying only those which have the exact matching flags from input
 
+* Could use bit flag system for glyph flags
+
 ## Correction possibility :
 * Store input as a vector set
 * Apply image scales to vector set instead
