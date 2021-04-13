@@ -6,7 +6,7 @@ Glyph recognition from an input
 2. After drawn input, produce black and alpha binary png from input, image bounds are defined by min / max x, y colored pixel within the input
 3. Rescale to a square canvas by identifying which of the bound axys is greater, and scale this png image axys to match the lowest
 4. Scale to the fixed size of glyph from data bank
-5. For each existing glyphs compare by filter substracting input to glyphe and weight result from quantity of black pixels remaining, if weight is below threshold and lower than actual stored candidate, replace candidate by the actual one in the loop
+5. For each existing glyphs compare by filter substracting input to glyph and weight result from quantity of black pixels remaining, if weight is below threshold and lower than actual stored candidate, replace candidate by the actual one in the loop
 6. If result : return glyphe id, if empty : false
 
 ## Optimisation possibility :
