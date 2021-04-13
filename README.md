@@ -13,3 +13,8 @@ Glyph recognition from an input
 1. Manualy assign flags to glyphs data bank (Edged, Curved, Closed, Open, Composed, ...)
 2. While input is made identify present flags within input
 3. Before step `5.` of `Main idea` filter the glyphs set from querying only those which have the exact matching flags from input
+
+## Correction possibility :
+* Store input as a vector set
+* Apply image scales to vector set instead
+* After all scales applied draw png from vector set using a fixed stroke width equivalent to glyphs from data bank
